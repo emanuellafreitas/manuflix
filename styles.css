@@ -1,0 +1,47 @@
+body { 
+    color: white;
+    background: black;
+    margin:0px;
+    font-family: "chackra petch", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(200, 47, 238);
+    padding: 20px;
+font-size: 32px;
+color: rgb(228, 42, 181);
+}
+
+.chamada {
+    background: rgb(184,156,213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center
+}
+
+.chamada-texto {
+    margin-right: 5%
+}
+
+h1{
+    font-size: 40px;
+}
+
+p {
+   font-size: 20px;
+}
+ img {
+    height: 200px;
+ }
+
+ .catgoria-videos {
+    display: flex;
+    overflow-x: auto;
+ gap: 10px;
+ }
+
+ .categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+ }
